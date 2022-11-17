@@ -1,0 +1,18 @@
+.dropdown-menu{
+    transform-origin: top center;
+    animation: rotateX 300ms ease-in-out forwards
+}
+
+@keyframes rotateX {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  50% {
+    transform: rotateX(-20deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}

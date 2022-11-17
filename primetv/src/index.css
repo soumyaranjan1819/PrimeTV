@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7.5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #99defe;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#2ea6fc;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#0072c3;
+  }
+  
