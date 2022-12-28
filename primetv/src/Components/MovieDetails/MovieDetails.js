@@ -33,7 +33,6 @@ const MovieDetails = () => {
     );
     const apiData = await fetchApi.json();
     setRecomendation(apiData.results);
-    console.log(apiData.results);
   };
 
   useEffect(() => {
