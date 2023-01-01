@@ -12,7 +12,6 @@ function Banner(props) {
     );
     const dataList = await apiData.json();
     setData(dataList.results);
-    // console.log(dataList.results);
   };
   useEffect(() => {
     window.scroll(0,0)
